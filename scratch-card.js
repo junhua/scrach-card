@@ -19,7 +19,7 @@
             width: 300,
             height: 150,
             background: null,
-            text: '刮开此涂层',
+            text: '',
             font: '36px arial',
             color: '#666',
             lineWidth: 25,
@@ -192,7 +192,7 @@
     ScratchCard.prototype._drawText = function() {
         var ctx = this.ctx;
 
-        //画文字 
+        //画文字
         ctx.font = this.options.font;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
